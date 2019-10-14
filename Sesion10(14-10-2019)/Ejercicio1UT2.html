@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,120 @@
     <title>Ejercicio 1 UT2 Sesion 10</title>
     <style>
         /*Hoja de estilos*/
-        .clasecolor{
+        .clasecolor {
             color: skyblue;
             /* background-color: teal; */
         }
-        body{
+
+        body {
             background-color: teal;
         }
+
+        p {
+            color: slategray;
+            text-align: center;
+        }
+
+        #particularcolor1 {
+            /* Selector de id. Estilo particular */
+            color: silver;
+        }
+
+        .clasealineacion1 {
+            /* Selector de clases */
+            text-align: right;
+        }
+
+        .variasclases1 {
+            color: darkgreen;
+        }
+
+        .variasclases2 {
+            text-align: left;
+        }
+
+        h1,
+        h2,
+        p {
+            /* Agrupacion de selectorees */
+            color: darkblue;
+        }
+
+        #colorfondo1 {
+            background-color: brown;
+            color: beige;
+        }
+
+        .imagenfondo {
+            background-image: url("./Imagenes/imagenespectacular.jpg");
+        }
+
+        .copiaimagenfondo {
+            background-image: url("./Imagenes/imagenperroled.jpg");
+            width: 80%;
+            height: 480px;
+            margin: auto;
+            background-repeat: no-repeat;
+            /*background-repeat: repeat-y;
+            background-repeat: repeat; */
+            background-position: right top;
+        }
     </style>
+
     <link rel="stylesheet" href="css/hojaEstilos.css">
 </head>
+
 <body>
     <h1>Sesion 10 UT2</h1>
     <h2>Trabajando con hojas de estilo internas</h2>
-    <p class="clasecolor">Este parrafo utiliza una clase llamada "clasecolor" en la que está implementada en una hoja de estilos interna.</p>
+    <p class="clasecolor">
+        Este parrafo utiliza una clase llamada "clasecolor" en la que está implementada en una hoja de
+        estilos interna.
+    </p>
     <h2>Trabajando con hojas de estilo externas</h2>
-    <p>El span que esta dentro de este parrafo utilizará una <span class="colorhojaexterna"> clase implementada por una hoja de estilos externa.</span></p>
+    <p>
+        El span que esta dentro de este parrafo utilizará una <span class="colorhojaexterna"> clase implementada por una
+            hoja de estilos externa.</span>
+    </p>
     <h2>Trabajando con estilos en linea</h2>
     <p>Este párrafo tendra dentro un <span style="color: crimson;">span que utilizara un estilo en linea.</span></p>
+    <h2>Prioridades de los estilos: en linea(directo),de forma interna y de forma externa.</h2>
+    <p style="color: red;" class="clasecolor">Este párrafo va a tener propiedades que se sobreescriben.
+        Aqui demostramos que el estilo en lina tiene prioridades sobre el estilo de una hoja interna
+    </p>
+    <p class="clasecolor colorhojaexterna">
+        Prueba de orden de Estilos sobre hoja interna y hoja externa.Tiene prioridad en el orden de declaración es
+        decir: cuando esta escrito primero el link o el estilo interno)
+    </p>
+    <h1>Selectores</h1>
+    <p id="particularcolor1">
+        Este parrafo va a cumplir un estilo particular (Selector id).
+        tiene prioridad sobre el selector de elemento si hay propiedades que se sobreescriban.
+    </p>
+
+    <p class="clasealineacion1">
+        Este párrafo cumple una clase "clasealineacion1". Si cumpliera un selector de nombre con la clase
+        "clasealineacion1" tendrian prioridad en el selector de clase
+    </p>
+    <h2>Aplicar varias clases a un elemento</h2>
+    <div class="variasclases1 variasclases2">
+        Capa que cumple varias clases.
+    </div>
+    <div id="colorfondo1">
+        Esta capa tiene un fondo marron y un color de texto beige.
+    </div>
+    <h3 style="color: #6a5acd; background-color: white;">Con color establecido mediante codigo hexadecimal</h3>
+    <div class="imagenfondo">
+        creo una imagen de fondo. como la capa no tiene dimensiones, solo se va a ver una imagen de muy mala manera
+    </div>
+    <div class="copiaimagenfondo">
+
+    </div>
 
 
 
 
 
 </body>
+
 </html>
