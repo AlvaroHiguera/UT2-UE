@@ -1,0 +1,39 @@
+.margensuperior{
+    margin-top: 40px;
+}.margeninferior{
+    margin-bottom: 60px;
+}
+.margenizquierdo{
+    margin-left: 100px;
+}
+.margenderecho{
+    margin-right: 100px;
+}
+.capa{
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    box-sizing: border-box;
+    float: left;
+    overflow: auto;
+}
+
+.capacentradaflotante{
+    float: left;
+    margin: auto;
+    width: 40%;
+    height: 300px;
+    border: solid black 1px;
+}
+.contenedor{
+    width: 100%;
+    display: flow-root;/*clear fix modernoo que se utiliza para acabar con los problemas derivados de los flotantes*/
+}
+.capaflotantederecha{
+    float: right;
+    margin: auto;
+    width: 40%;
+    height: 300px;
+    border: solid black 1px;
+}
+
