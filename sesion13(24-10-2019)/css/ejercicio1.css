@@ -1,0 +1,79 @@
+.padding1{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.dimensionescapa{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border: solid black 1px;
+}
+.paddinggeneral{
+    padding: 50px;
+}
+.capamargingleft{
+    width: 90%;
+    margin-left: 90%;
+    border: solid black 1px;
+}
+.capaizquierdaoutline{
+    float: left;
+    outline: solid black 4px;
+    min-height: 400px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.capaderechaoutline{
+    float: left;
+    outline: solid red 4px;
+    min-height: 400px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.laineacionderecha{
+    text-align: right;
+}
+.laineacionizquierda{
+    text-align: left;
+}
+.laineacioncentrado{
+    text-align: center;
+}
+.laineacionjustificada{
+    text-align: justify;
+}
+.tachado{
+    text-decoration: line-through;
+}
+.subrayado{
+    text-decoration: underline;
+}
+.sobrerrayado{
+    text-decoration: overline;
+}
+.transformacionmin{
+    text-transform: lowercase;
+}
+.transformacionmay{
+    text-transform: capitalize;
+}
+.transformacioncap{
+    text-transform: capitalize;
+}
+.identacion{
+    text-indent: 40px;
+}
+.direcciondetexto{
+    direction: rtl;
+}
+@font-face{
+    font-family: familiafuente;
+    src: url(../fontfamyli/Rubik-Regular.ttf);
+}
+
+
+
+
+
