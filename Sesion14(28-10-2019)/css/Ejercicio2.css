@@ -1,0 +1,26 @@
+a:link{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color:purple;
+}
+a:active{
+    color: tan;
+    background-color: teal;
+}
+a:hover{
+    color: khaki;
+}
+ol{
+    background-color: #ff9999;
+    padding: 20px;
+}
+ol li{
+    background-color: #ff5e5e;
+    padding: 5px;
+    margin-left: 35px;
+}
+ul{
+    list-style-image: url("../img/icono\ bladimir");
+}
