@@ -1,9 +1,37 @@
-p{
+p.ocultar{
     display: none;
     background-color: yellow;
     padding: 20px;
 }
 
-div:hover p{
+div:hover p.ocultar {
     display: block;
 }
+
+
+div p:first-child{
+    color:coral ;
+}
+/*pseudo elemento firs line para la ptimera linea*/
+p.primerafila::first-line{
+    font-size: 2em;
+}
+
+
+p.sangradoprimeralinea::first-line{
+    text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
