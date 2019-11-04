@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1 </title>
+    <link rel="stylesheet" href="css/Ejercicio1.css">
+</head>
+
+<body>
+    <h1>Ejercicio 1 Sesion 15 (04-11-2019)</h1>
+
+    <h2>List Style position</h2>
+
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        <li>Elemento 7</li>
+    </ol>
+    <ol class="a">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        <li>Elemento 7</li>
+    </ol>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        <li>Elemento 7</li>
+    </ul>
+    <ul class="b">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        <li>Elemento 7</li>
+    </ul>
+
+    <h2>Conbinadores</h2>
+    <h3>Selector descendente</h3>
+
+    <div>
+        <p>
+            Este parrafo es descendiente del div. Deberia de aparecer en verde
+        </p>
+        <span>
+            <p>
+                ¿Este parrafo es descendiente del div, es decir, aparece en verde? Si
+            </p>
+        </span>
+        <p>
+            Este parrafo deberia de ser descendiente.
+        </p>
+    </div>
+
+    <h3>Selector hijo</h3>
+
+    <span>
+        <a href="https://www.youtube.com" target="_blank">Enlace hijo de span que redirecciona a Youtube</a>
+        <div>
+            <a href="https://www.google.es" target="_blank">Enlace descendiente de span pero no es hijo directo de él.
+                Redirecciona a Google </a>
+        </div>
+    </span>
+    <h3>Selectro hermano adyacente</h3>
+    <div>
+        <h4>Esto es un h4 </h4>
+        <h5>Esto es un h5 hermano adyecente a un h4 deberia aparecer en color teal</h5>
+        <h5>Esto es un h5 hermano de un h4 pero no un hermano adyacente</h5>
+    </div>
+    <h3>Selector de hermano general</h3>
+    <div>
+        <h5>Esto es un h5</h5>
+        <h6>Esto es un h6 hermano adyacente a un h5</h6>
+        <h6>Esto es un h6 hermano general de un h5</h6>
+    </div>
+    <div>
+        <a href="https://google.es" class="resaltado" target="_blank">Enlace a Google. Elemento que cumple una clase resaltado y que aplica su estilo al
+            poner el raton encima</a>
+        <p>
+            Elemento p que cumple la clase resaltado. Pero no dseberia de actuar ya que no es un elemento a
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.a{
+   list-style-position: outside; 
+}
+.b{
+    list-style-position: inside;
+}
+/*Selector descendente*/
+
+
+div p{
+    color: green;
+}
+/*Selector hijo*/
+
+span>a{
+    color: red;
+}
+/*Selector adyacente hermano*/
+h4 + h5{
+    color: teal;
+}
+
+/*Selector hermano general*/
+
+h5 ~ h6{
+    color:yellowgreen;
+}
+
+a.resaltado:hover{
+    background-color: blueviolet;
+}
+
+
