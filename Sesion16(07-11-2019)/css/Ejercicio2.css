@@ -1,0 +1,70 @@
+.capagenerica{
+    width: 30%;
+    min-height: 200px;
+    border: 5px dotted  blue;
+}
+
+.positionstatic{
+    position: static;
+    left: 30px;
+    top: 30px;
+    color: brown;
+}
+.positionrelative{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    color: teal;
+}
+
+.positionrelative{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    color: navy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
