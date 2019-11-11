@@ -1,0 +1,76 @@
+.capaestandar{
+    width: 300px;
+    min-height: 200px;
+}
+
+.contenedor{
+    position: relative;
+    width: 90%;
+    min-height: 800px;
+    border: blue 1px solid;
+    background-color: blue;
+    margin: auto;
+    box-sizing: border-box;
+}
+.positionabsolute{
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    border: green 1px solid;
+    background-color: green;
+}
+.capa1{
+    position: absolute;
+    background-color: red;
+    z-index: 100;
+}
+.capa2{
+    position: absolute;
+    background-color: orange;
+    top: 40px;
+    left: 5%;
+    z-index: 200;
+    /*Lo hacemos de 100 en 100 para falcilitar que aparezca y corregir posibles errores*/
+}
+.propiedadoverflowhidden{
+    overflow: hidden;
+    border: black 1px solid;
+    height: 300px;
+}
+.propiedadoverflowscroll{
+    overflow: scroll;
+    border: black 1px solid;
+    height: 300px;
+}
+.propiedadoverflowauto{
+    overflow: auto;
+    border: black 1px solid;
+    height: 300px;
+    /*Con el auto si el texto no ocupa el espacio de la capa no crea el scroll*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
