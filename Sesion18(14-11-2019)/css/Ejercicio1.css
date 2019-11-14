@@ -1,0 +1,101 @@
+.flotarderecha{
+    float: right;
+}
+
+
+.capacentrada{
+    width: 70%;
+    min-height: 200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.centradoelementoinline{
+    text-align: center;
+}
+.contenedor{
+    width: 80%;
+    border: solid black 1px;
+    position: relative;
+    min-height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.alinearderechaposicion{
+    position: absolute;
+    right: 0;
+    width: 15%;
+}
+.alinearderechafloat{
+    float: right;
+    width: 30%;
+}
+ol{
+    list-style-type: none;
+    margin-top:30px ;
+}
+ol li{
+    padding:30px 10px;
+    border: 1px solid blue;
+    display: inline;
+}
+
+.centradoverticalhorizontal{
+    height: 200px;
+    line-height: 200px;
+    border: teal solid 1px;
+    text-align: center;
+    margin-top: 40px;
+}
+.centradoverticalhorizontal p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contenedortransform{
+    height: 200px;
+    position: relative;
+    border: teal dotted 1px;
+
+}
+.contenedortransform p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.opacidad{
+    opacity: 50%;
+    width: 100%;
+}
+
+.contenedorimagen{
+    position: relative;
+
+}
+.textoimg{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
